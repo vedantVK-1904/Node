@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icons/">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<style>
+    
+</style>
+
+
+
+
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/logoo.jpg" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul class="vk">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- -------------------------------------------courses page---------------------------------------- -->
+
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>In this Intermediate course we offer the best practices to make you good in it?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Get the best best College Degrees, enriching in various things</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Done with Graduation now get the Best of Post-Graduation Courses</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------Facilities---------------------------------------------- -->
+
+
+    <section class="Facilities" >
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="Facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <P>The College Library is a hub of learning and knowledge, nestled in the heart of the campus. It’s a multi-storied building with a modern architectural design that blends seamlessly with the surrounding academic buildings..</P>
+            </div>
+            <div class="Facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <P>The College Playground is a vibrant and dynamic space located within the campus grounds. It’s a sprawling green field, surrounded by trees that provide a refreshing ambiance.</P>
+            </div>
+            <div class="Facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <P>The Tasty Food Facility at our college is a vibrant culinary hub that caters to the diverse tastes and preferences of our student body. Nestled within the campus, it's not just a place to grab a quick bite but an experience in itself.</P>
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-- -------------------------------------------------Call To Action------------------------------------------- -->
+
+
+    <section class="footer" id="ft">
+        <h4>About Us</h4>
+        <p>Welcome, where academic excellence meets a vibrant campus community. Established with a vision to nurture future leaders and innovators, we take pride in offering a diverse range of educational opportunities in a supportive and inclusive environment. <br> </p>
+        <div class="icons">
+            <a id="kv" href=""> <h2>Made for CL-II</h2> </a>
+        </div>
+    </section>
+
+
+</body>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</html>

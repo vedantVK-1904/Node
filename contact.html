@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icons/">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<style>
+      
+</style>
+
+
+
+
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/logoo.jpg" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul class="vk">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- -------------------------------------------contact us page---------------------------------------- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.2618436350353!2d79.29764212881194!3d12.696325316105165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad2c1b9dcb1135%3A0x503ddee8722f71c0!2sSri%20Balaji%20Chockalingam%20Engineering%20College%20Arni!5e0!3m2!1sen!2sin!4v1699322336139!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="Contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class='bx bxs-home'></i>
+                    <span>
+                        <h5>Arani Road, Irumbedu, Arani, Tamil Nadu 632317</h5>
+                        <p>Tamilnadu, Chenni, IN</p>
+                    </span>
+                </div>
+               <div>
+                    <i class='bx bxs-phone'></i>
+                    <span>
+                        <h5>+91 9060470959</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+               </div>
+               <div>
+                <i class='bx bxl-gmail'></i>
+                <span>
+                    <h5>vk2043665@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+               </div>
+            </div>
+            <div class="contact-col">
+
+                <!-- <form action="form-handler.php" method="post"> -->
+                <form action="">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="4" name="Massage" placeholder="Massage" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+ <!-- -------------------------------------------------Call To Action------------------------------------------- -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome, where academic excellence meets a vibrant campus community. Established with a vision to nurture future leaders and innovators, we take pride in offering a diverse range of educational opportunities in a supportive and inclusive environment. <br> </p>
+        <div class="icons">
+            <a id="kv" href=""> <h2>Made for CL-II</h2> </a>
+        </div>
+    </section>
+
+
+</body>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</html>
